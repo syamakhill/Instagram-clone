@@ -1,0 +1,91 @@
+.container{
+    width: 990px;
+    display: flex;
+    margin: 60px auto;
+    gap: 40px;
+
+}
+.img{
+    width: 560px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+   
+}
+.picture{
+    width: 100%;
+    border-radius: 14px;
+}
+.profile{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.username{
+    font-size: 14px;
+    color: rgb(84, 81, 81);
+}
+.bi{
+    font-size: 24px;
+}
+.reactions{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.reaction-left{
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+}
+.sidebar-title{
+    margin-top: 0;
+}
+.story-container{
+    width: 990px;
+    margin: 60px auto;
+    display:flex;
+    gap: 16px;
+    overflow-x: scroll;
+    
+}
+.story-container::-webkit-scrollbar{
+    display: none;
+}
+
+.story{
+    text-align: center;
+}
+.story-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar{
+    width: 990px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+}
+.btn{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.app{
+    width: 500px;
+}
